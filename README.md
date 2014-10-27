@@ -10,7 +10,7 @@ PHPoAuthLib provides oAuth support in PHP 5.3+ and is very easy to integrate wit
 
 Installation
 ------------
-This library can be found on [Packagist](https://packagist.org/packages/lusitanian/oauth).
+This library can be found on [Packagist](https://packagist.org/packages/phpvirus/oauth).
 The recommended way to install this is through [composer](http://getcomposer.org).
 
 Edit your `composer.json` and add:
@@ -18,7 +18,7 @@ Edit your `composer.json` and add:
 ```json
 {
     "require": {
-        "lusitanian/oauth": "~0.3"
+        "phpvirus/oauth": "0.1.*@dev"
     }
 }
 ```
@@ -76,6 +76,7 @@ Included service implementations
     - Reddit
     - RunKeeper
     - SoundCloud
+	- Stripe
     - Ustream
     - Vkontakte
     - Yammer
